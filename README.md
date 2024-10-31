@@ -3,8 +3,8 @@ SFE-128-A
 Log Parsing 2
 
 
-- Examine the `analysis2` directory, `routerlogtest2.txt` file with data from a set of network routers.
-- **Scenario**: A hacker has gotten into several of your routers between 09 Jun and 11 June, resulting in shutdown of certain routers. Luckily you have remotely backed-up logging, and are given a text file with the affected dates. The hacker’s signature set of lines in order looks like this:
+1. Examine the `analysis2` directory, `routerlogtest2.txt` file with data from a set of network routers.
+2. **Scenario**: A hacker has gotten into several of your routers between 09 Jun and 11 June, resulting in shutdown of certain routers. Luckily you have remotely backed-up logging, and are given a text file with the affected dates. The hacker’s signature set of lines in order looks like this:
   - `%SEC_LOGIN-5-LOGIN_SUCCESS: Login Success`
   - `%SYS-5-CONFIG_I: Configured from console by authuser1 on vty1`
   - `%SYS-5-PRIV_AUTH_PASS: Privilege level set`
